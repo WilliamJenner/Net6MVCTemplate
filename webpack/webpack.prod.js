@@ -24,7 +24,7 @@ module.exports = merge(webpackCommon, {
     }),
     new HtmlWebpackPlugin({
       ...config.commonHtmlWebpackPlugin,
-      title: "Net6SpaTemplate",
+      title: "Net6MVCTemplate",
     }),
   ],
   devtool: false,

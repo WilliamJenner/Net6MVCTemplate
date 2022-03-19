@@ -18,7 +18,7 @@ module.exports = async ({ dev_server }) => {
       new HtmlWebpackHarddiskPlugin(),
       new HtmlWebpackPlugin({
         ...config.commonHtmlWebpackPlugin,
-        title: "DEV - Net6SpaTemplate",
+        title: "DEV - Net6MVCTemplate",
         devServer: dev_server
           ? `${config.devServerUrl}:${config.devServerPort}/`
           : false,

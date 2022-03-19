@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "Net6SpaTemplate": {
+    "Net6MVCTemplate": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

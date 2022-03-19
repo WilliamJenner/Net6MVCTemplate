@@ -4,7 +4,7 @@ const appRoot = require("app-root-path");
 module.exports = {
   devServerPort: 8080,
 
-  app: "./src/scripts/app/index.tsx",
+  app: "./src/scripts/index.tsx",
 
   vendors: [
     "react",

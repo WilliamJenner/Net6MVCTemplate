@@ -1,14 +1,10 @@
-@model Net6SpaTemplate.AppSettings
-@{
-    Layout = "_Layout";
-}
+@model Net6MVCTemplate.API.Models.IndexModel
 
-<div id="root"></div>
+<h1>Hi this is a template</h1>
+<p>Paragraph</p>
 
 <script>
-    window.appConfig = @Json.Serialize(Model);
+    document.addEventListener('DOMContentLoaded', () => {
+        init();
+    }, false);
 </script>
-
-<noscript>
-    You need to enable JavaScript to run this app.
-</noscript>

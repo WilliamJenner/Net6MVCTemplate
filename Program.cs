@@ -1,4 +1,4 @@
-using Net6SpaTemplate;
+using Net6MVCTemplate.API;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()
@@ -33,7 +33,7 @@ WebApplicationBuilder ConfigureBuilder(string[] strings)
 
     webApplicationBuilder.Host.UseSerilog();
 
-    webApplicationBuilder.Services.Configure<AppSettings>(provider => webApplicationBuilder.Configuration.GetSection("AppConfig").Bind(provider));
+    webApplicationBuilder.Services.Configure<AppConfig>(provider => webApplicationBuilder.Configuration.GetSection("AppConfig").Bind(provider));
     
     var mvcBuilder = webApplicationBuilder.Services.AddControllersWithViews();
 
@@ -49,26 +49,32 @@ WebApplicationBuilder ConfigureBuilder(string[] strings)
 
 void ConfigureApp(WebApplication webApplication)
 {
+    if (!webApplication.Environment.IsDevelopment())
+    {
+        webApplication.UseExceptionHandler("/Home/Error");
+        // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+        webApplication.UseHsts();
+    }
+
     webApplication.UseSerilogRequestLogging();
 
-    webApplication.UseHttpsRedirection();
-
     webApplication.UseStaticFiles();
+
+    webApplication.UseHttpsRedirection();
 
     webApplication.UseRouting();
 
     webApplication.UseAuthorization();
 
-    webApplication.UseResponseCompression();
-
     webApplication.UseEndpoints(endpoints =>
     {
         endpoints.MapControllerRoute(
-            "default",
-            "{controller=Home}/{action=Index}/{id?}");
-
+            name: "default",
+            pattern: "{controller=Home}/{action=Index}/{id?}");
         endpoints.MapFallbackToController("Index", "Home");
     });
+
+    webApplication.UseResponseCompression();
 
     //SpaServices needs to be registered last 
     if (webApplication.Environment.IsDevelopment())
