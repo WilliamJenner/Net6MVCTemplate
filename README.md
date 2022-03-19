@@ -1,6 +1,6 @@
-# .NET 6 SPA Template
+# .NET 6 MVC Template
 
-A barebones SPA Template
+A barebones MVC Template
 
 ### Backend
 - .NET 6 MVC
@@ -27,5 +27,5 @@ This is an issue because `webpack-dev-server` generates a cert which, according 
 2. Enable 'Allow invalid certificates for resources loaded from localhost.'
 
 ## Contributors
-- [@WilliamJenner](https://github.com/WilliamJenner)
 - @me
+- [@harrygillingham99](https://github.com/harrygillingham99)
