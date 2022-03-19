@@ -4,16 +4,9 @@ const appRoot = require("app-root-path");
 module.exports = {
   devServerPort: 8080,
 
-  app: "./src/scripts/index.tsx",
+  app: "./src/scripts/app/index.ts",
 
-  vendors: [
-    "react",
-    "react-dom",
-    "bootstrap",
-    "react-router-dom",
-    "react-feather",
-    "dayjs",
-  ],
+  vendors: ["react", "react-dom", "bootstrap", "react-feather", "dayjs"],
 
   distPath: path.resolve(appRoot.toString(), "wwwroot"),
 
