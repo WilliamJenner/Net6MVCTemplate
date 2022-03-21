@@ -15,7 +15,7 @@ A barebones MVC Template
  
 ## Prerequisites
 1.    NodeJS v16.13.0 or later
-2.    .NET 6 SDK
+2.    .NET 6.0.201 SDK or later
 
 ## FAQ
 
