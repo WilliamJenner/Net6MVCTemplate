@@ -1,0 +1,12 @@
+C:\Users\harry.gillingham\source\repos\Net6MVCTemplate\BLL\BLL\bin\Debug\net6.0\BLL.deps.json
+C:\Users\harry.gillingham\source\repos\Net6MVCTemplate\BLL\BLL\bin\Debug\net6.0\BLL.dll
+C:\Users\harry.gillingham\source\repos\Net6MVCTemplate\BLL\BLL\bin\Debug\net6.0\BLL.pdb
+C:\Users\harry.gillingham\source\repos\Net6MVCTemplate\BLL\BLL\obj\Debug\net6.0\BLL.csproj.AssemblyReference.cache
+C:\Users\harry.gillingham\source\repos\Net6MVCTemplate\BLL\BLL\obj\Debug\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harry.gillingham\source\repos\Net6MVCTemplate\BLL\BLL\obj\Debug\net6.0\BLL.AssemblyInfoInputs.cache
+C:\Users\harry.gillingham\source\repos\Net6MVCTemplate\BLL\BLL\obj\Debug\net6.0\BLL.AssemblyInfo.cs
+C:\Users\harry.gillingham\source\repos\Net6MVCTemplate\BLL\BLL\obj\Debug\net6.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\harry.gillingham\source\repos\Net6MVCTemplate\BLL\BLL\obj\Debug\net6.0\BLL.dll
+C:\Users\harry.gillingham\source\repos\Net6MVCTemplate\BLL\BLL\obj\Debug\net6.0\refint\BLL.dll
+C:\Users\harry.gillingham\source\repos\Net6MVCTemplate\BLL\BLL\obj\Debug\net6.0\BLL.pdb
+C:\Users\harry.gillingham\source\repos\Net6MVCTemplate\BLL\BLL\obj\Debug\net6.0\ref\BLL.dll

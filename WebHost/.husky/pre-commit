@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+
+cd ./WebHost && npx lint-staged --no-stash --verbose
