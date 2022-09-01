@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\harry.gillingham\\source\\repos\\Net6MVCTemplate\\BLL\\BLL\\BLL.csproj": {}
+    "C:\\Users\\harry\\Source\\Repos\\Net6MVCTemplate\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\harry.gillingham\\source\\repos\\Net6MVCTemplate\\BLL\\BLL\\BLL.csproj": {
+    "C:\\Users\\harry\\Source\\Repos\\Net6MVCTemplate\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\harry.gillingham\\source\\repos\\Net6MVCTemplate\\BLL\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\harry\\Source\\Repos\\Net6MVCTemplate\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\harry.gillingham\\source\\repos\\Net6MVCTemplate\\BLL\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\harry.gillingham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\harry.gillingham\\source\\repos\\Net6MVCTemplate\\BLL\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\harry\\Source\\Repos\\Net6MVCTemplate\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\harry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\harry\\Source\\Repos\\Net6MVCTemplate\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\harry.gillingham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\harry\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,10 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.rgroup.co.uk/api/v2": {},
-          "http://teamcity.rgroup.co.uk/httpAuth/app/nuget/v1/FeedService.svc/": {},
-          "http://teamcity.rgroup.co.uk:80/httpAuth/app/nuget/feed/_Root/default/v3/index.json": {},
-          "http://teamcity01/httpAuth/app/nuget/feed/_Root/default/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
